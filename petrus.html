@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Petrus Homes Official Website">
+    <title>Petrus Homes</title>
+    <link rel="stylesheet" href="petrus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/petrus-icon.png">
+</head>
+<body>
+    
+    <header class="h-[60px] bg-[var(--blue)] w-full flex justify-center items-center">
+        <div class="flex items-center justify-between w-full h-full">
+            
+            <div class="logo-wrapper w-[9rem] h-full flex items-center ml-4">
+                <img src="assets/PETRUS-header-logo.jpg" alt="Petrus Logo" class="h-full">
+            </div>
+            <div class="flex gap-x-2 justify-end h-full w-[50%] max-[940px]:text-xs text-sm mr-4 max-sm:hidden">
+                <span class="flex relative items-center hover:bg-[#DA9168] transition duration-500 rounded-md xl:w-[20%] w-[33%] self-center h-[70%] px-2">
+                    <i class="fa-solid fa-house-circle-check p-2" style="color: #ffffff;"></i>
+                    <p class="text-white ml-2"><a href="#About">About Us</a></p>
+                </span>
+                <span class="flex relative items-center hover:bg-[#DA9168] transition duration-1000 rounded-md xl:w-[20%] w-[33%] self-center h-[70%] px-2">
+                    <i class="fa-solid fa-earth-africa max-md:px-1 p-2" style="color: #ffffff;"></i>
+                    <p class="text-white ml-2"><a href="#Services">Our Services</a></p>
+                </span>
+                <span class="flex relative items-center hover:bg-[#DA9168] transition duration-500 rounded-md xl:w-[20%] w-[33%] self-center h-[70%] px-2">
+                    <i class="fa-solid fa-phone-volume max-md:px-1 p-2" style="color: #ffffff;"></i>
+                    <p class="text-white ml-2"><a href="#Contact">Contact Us</a></p>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section h-[90vh] w-full  relative bg-cover bg-center flex items-center justify-center">
+        
+        <video class="w-full h-full absolute -z-10 object-cover" src="assets/Hero-BackgroundCompressed.mp4" autoplay loop muted></video>
+      
+
+        <div class="hero-text max-lg:w-4/5 backdrop-filter backdrop-blur-[8px] transition-backdrop-filter duration-300 rounded-lg">
+            <div class="hero-text-wrapper flex flex-col justify-center items-center p-8">
+                <h1 class="text-[var(--brown)] font-bold text-7xl text-center services2 max-lg:text-5xl max-sm:text-3xl p-4">Welcome To Petrus Properties.</h1>
+            
+                <div class="animated">
+                    <h1 class="animatedText text-[var(--blue)] whitespace-nowrap text-4xl max-lg:text-2xl max-md:text-xl max-sm:text-[10px] font-bold text-center py-1 my-1">Leading with Professionalism and Integrity.</h1>
+                </div>
+           
+            </div>
+        </div>
+    </div>
+
+    <div class="services-container mt-[8rem]" id="Services">
+        <h1 class="text-6xl max-[400px]:text-5xl font-bold text-[var(--brown)] mb-[2rem] services text-center p-3">Our Services</h1>
+        <div class="services-wrapper max-md:mx-3">
+            <div class="services-image relative h-[80vh] max-sm:h-[50vh] flex items-center justify-center lg:ml-60 md:ml-24 md:shadow-lg md:mb-10 mb-8 max-md:rounded-lg rounded-tl-lg rounded-bl-lg shadow-md">
+                <div class="background-image bg-[url('assets/pexels-timur-saglambilek3.jpg')] bg-no-repeat bg-cover h-full w-full absolute -z-10"></div>
+                <div class="services-image-text w-[90%] flex items-center justify-center gap-x-4 backdrop-filter backdrop-blur-lg transition-backdrop-filter duration-300 cursor-pointer p-4 rounded-lg">
+                    <img class="w-32 h-32 max-sm:w-16 max-sm:h-16 self-start mt-3" src="assets/residential-place-svgrepo-com.png" alt="residential place icon">
+                    <div class="services-text w-full">
+                        <h1 class="text-[var(--brown)] text-4xl max-sm:text-2xl font-bold p-3">Residential Sales</h1>
+                        <p class="text-white mt-4 text-2xl max-sm:text-sm font-bold">We specialize in residential sales helping clients find the perfect home that meets their budget location preferences and lifestyle. Our team of experienced agents will guide you through the entire buying process from property search to negotiation and closing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-image relative h-[80vh] max-sm:h-[50vh] flex items-center justify-center lg:mr-60 md:mr-24 md:shadow-lg md:mb-10 mb-8 max-md:rounded-lg rounded-tr-lg rounded-br-lg shadow-md">
+                <div class="background-image bg-[url('assets/property-sales.jpg')] bg-no-repeat bg-cover h-full w-full absolute -z-10"></div>
+                <div class="services-image-text w-[90%] flex items-center justify-center gap-x-4 backdrop-filter backdrop-blur-lg transition-backdrop-filter duration-300 cursor-pointer p-4 rounded-lg">
+                    <img class="w-32 h-32 max-sm:h-16 max-sm:w-16 self-start" src="assets/sales-amount-svgrepo-com.png" alt="property sales icon">
+                    <div class="services-text w-full">
+                        <h1 class="text-[var(--brown)] text-4xl max-sm:text-2xl font-bold p-3">Property Sales & Management</h1>
+                        <p class="text-white mt-4 text-2xl max-sm:text-sm font-bold">With our vast array and portfolio of lands, we are your direct guide and access to buying in whatever location with a sure ROI; or if you are a property owner looking for reliable and efficient property management services we have got you covered. Our team will handle all aspects of property management. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-image relative h-[80vh] max-sm:h-[50vh] flex items-center justify-center lg:ml-60 md:ml-24 md:shadow-lg md:mb-10 mb-8 max-md:rounded-lg rounded-tl-lg rounded-bl-lg shadow-md">
+                <div class="background-image bg-[url('assets/buy-real-estate.jpg')] bg-no-repeat bg-cover h-full w-full absolute -z-10"></div>
+                <div class="services-image-text w-[90%] flex items-center justify-center gap-x-4  backdrop-filter backdrop-blur-lg transition-backdrop-filter duration-300 p-4 rounded-lg">
+                    <img class="w-32 h-32 max-sm:w-16 max-sm:h-16 self-start" src="assets/partners-solid-svgrepo-com.png" alt="joint venture icon">
+                    <div class="services-text w-full">
+                        <h1 class="text-[var(--brown)] text-4xl max-sm:text-2xl font-bold p-3">Joint Venture</h1>
+                        <p class="text-white mt-4 text-2xl max-sm:text-sm font-bold">Through our strategic partnerships, real estate success is redefined. Our joint ventures bring together expertise, innovation, and shared goals to create exceptional property developments.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-image relative h-[80vh] max-sm:h-[50vh] flex items-center justify-center lg:mr-60 md:mr-24 md:shadow-lg md:mb-10 mb-8 max-md:rounded-lg rounded-tr-lg rounded-br-lg shadow-md">
+                <div class="background-image bg-[url('assets/family-investment.jpg')] bg-no-repeat bg-cover h-full w-full absolute -z-10"></div>
+                <div class="services-image-text w-[90%] flex items-center justify-center gap-x-4  backdrop-filter backdrop-blur-lg transition-backdrop-filter duration-300 p-4 rounded-lg">
+                    <img class="w-32 h-32 max-sm:w-16 max-sm:h-16 self-start" src="assets/investment-svgrepo-com (1).png" alt="investment opportunities icon">
+                    <div class="services-text w-full">
+                        <h1 class="text-[var(--brown)] text-4xl max-sm:text-2xl font-bold p-3">Investment Opportunities</h1>
+                        <p class="text-white mt-4 text-2xl max-sm:text-sm font-bold">Are you interested in real estate investments? Our team stays up-to-date with market trends and can help you identify profitable investment opportunities. We provide comprehensive analysis and advice to guide you in making informed investment decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slide-container mt-[8rem] relative w-[80%] h-[850px] max-sm:h-[550px] lg:w-[90%]  overflow-hidden flex flex-col">
+
+        <div class="slides-text text-center h-[10rem] xl:h-[7rem]">
+            <h1 class="text-5xl max-sm:text-3xl h-auto font-bold services pb-3 xl:mt-4 text-[var(--brown)]">Discover Our Array of Exquisite Properties.</h1>
+        </div>
+
+        <div class="slides w-full h-[100%]  relative shadow-md rounded-lg">          
+            <img src="assets/petrus design ud1 new.jpg" alt="petrus properties land at iloti-epe">
+            <img src="assets/petrus design ud2 new.jpg" alt="petrus properties land at itoki-epe">
+            <img src="assets/petrus design ud3.jpg" alt="petrus properties land at ilara-epe">         
+        </div>
+
+        <div class="buttons">
+            <span class="next">&#10095</span>
+            <span class="prev">&#10094</span>
+        </div>
+
+    </div>
+
+
+    <div class="about-us relative h-[80vh] w-full mt-[8rem]" id="About">
+        <video class="absolute -z-10 h-full w-full top-0 left-0 right-0 bottom-0 object-cover" src="assets/Background-VideoCompressed.mp4" autoplay loop muted></video>
+        <div class="about-us-wrapper flex justify-center items-center h-full w-full">
+                <div class="about-us-text w-3/4 h-auto items-center justify-center flex flex-col backdrop-filter backdrop-blur-md transition-backdrop-filter duration-300 rounded-lg p-5">
+                    <h1 class="text-4xl text-[var(--brown)] font-bold lg:text-6xl max-sm:text-2xl h-auto">About Us</h1>
+                    <p class="text-white font-semibold text-xl lg:text-3xl max-sm:text-sm h-auto">At Petrus Properties we pride ourselves on being a leading real estate company with a strong reputation for integrity and professionalism. <br>Our mission is to assist clients in finding their dream homes, maximizing their investments and ensuring a seamless real estate experience. <br>We understand that every client has unique needs and goals and we tailor our services to meet those requirements.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="why-choose-us mt-[8rem] h-full">
+        <h1 class="text-6xl font-bold text-[var(--brown)] mb-[4rem] lg:mt-[7%] services text-center p-3 max-sm:text-4xl">Why Choose Us?</h1>
+        <div class="why-wrapper flex h-full w-full items-center justify-center  max-lg:flex-col">
+           <div class="group lg:w-[40%] h-full p-8 relative left-0">
+                <div class="why-image-text h-[50vh] max-lg:h-[50vh] flex flex-col items-center rounded-lg p-2 hover:bg-[#FAF9F6] shadow-lg drop-shadow-lg">
+                    <img class="w-32" src="assets/architect.svg" alt="icon">
+                    <div class="why-text-wrapper mt-6 h-full">
+                        <h1 class="font-bold font-mono text-[var(--brown)] text-3xl text-center">Expertise</h1>
+                        <p class="font-medium w-3/4 max-md:w-[90%] mx-auto text-center">Our team of licensed professionals has extensive knowledge of the local real estate market. We stay informed about market trends pricing and regulations to provide accurate and reliable advice.
+                        </p>
+                    </div>
+                </div>
+                <div class="why-image-text h-[50vh] max-lg:h-[50vh] flex flex-col items-center rounded-lg p-2 hover:bg-[#FAF9F6] shadow-lg drop-shadow-lg mt-12 mb-4">
+                    <img class="w-32" src="assets/award.svg" alt="icon">
+                    <div class="why-text-wrapper mt-6 h-full">
+                        <h1 class="font-bold font-mono text-[var(--brown)] text-3xl text-center">Integrity</h1>
+                        <p class="font-medium w-3/4 max-md:w-[90%] mx-auto text-center">We are committed to maintaining the highest standards of ethics and professionalism. We prioritize our clients' interests and work diligently to achieve their objectives.</p>
+                    </div>
+                </div>
+           </div>
+           
+           <div class="group lg:w-[40%] h-full p-8 relative right-0">
+                <div class="why-image-text h-[50vh] max-lg:h-[50vh] flex flex-col items-center rounded-lg p-2 hover:bg-[#FAF9F6] shadow-lg max-md:drop-shadow-lg">
+                    <img class="w-32"  src="assets/customer-support.svg" alt="icon">
+                    <div class="why-text-wrapper mt-6 h-full">
+                        <h1 class="font-bold font-mono text-[var(--brown)] text-3xl text-center">Client-Centric Approach</h1>
+                        <p class="font-medium w-3/4 max-md:w-[90%] mx-auto text-center">We value our clients and strive to exceed their expectations. We listen to their needs provide personalized solutions and offer exceptional customer service throughout the process.
+                        </p>
+                    </div>
+                </div>
+                <div class="why-image-text h-[50vh] max-lg:h-[50vh] flex flex-col items-center rounded-lg p-2 hover:bg-[#FAF9F6] shadow-lg max-md:drop-shadow-lg mt-12 mb-4">
+                    <img class="w-32" src="assets/business-partnership.svg" alt="icon">
+                    <div class="why-text-wrapper mt-6 h-full">
+                        <h1 class="font-bold font-mono text-[var(--brown)] text-3xl text-center">Network</h1>
+                        <p class="font-medium w-3/4 max-md:w-[90%] mx-auto text-center">With an extensive network of industry professionals we can connect our clients with reputable lenders contractors and other service providers. This ensures a smooth and efficient real estate experience.
+                        </p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="testimonials-container mt-[8rem] flex flex-col justify-center items-center h-full w-full">
+        <div class="test-heading-wrapper w-full h-full mb-[4rem] text-center">
+            <h1 class="text-6xl font-bold text-[var(--brown)] services p-3 max-sm:text-4xl">What Our Clients Say</h1>
+        </div>
+        <div class="testimonials-wrapper flex flex-col justify-center items-center w-full h-auto px-[5rem] py-[2rem] max-sm:px-[1rem] max-sm:py-0">
+            <div class="testimonials w-96 h-[40vh] max-sm:w-[20rem] max-sm:p-2 flex flex-col justify-center rounded-lg p-6 hover:bg-[#FAF9F6] shadow-lg drop-shadow-lg self-start max-sm:self-center">
+                <div class="test-image w-12 h-auto self-end">
+                    <img src="assets/quotes-thin-svgrepo-com.svg">
+                </div>
+                <div class="test-text w-full h-[70%] text-center">
+                    <p class="h-full p-2 font-bold text-[var(--brown)]">Their client service is top notch, i was awed by their approach, they are not your regular real estate company. <br> <br> <span class="text-[var(--blue)]">-Adeleke Paul-</span></p>
+                </div>
+            </div>
+
+            <div class="testimonials w-96 h-[40vh] max-sm:w-[20rem] max-sm:p-2 flex flex-col justify-center rounded-lg p-6 hover:bg-[#FAF9F6] shadow-lg drop-shadow-lg mt-[3rem] self-center max-sm:self-center">
+                <div class="test-image w-12 h-auto self-end">
+                    <img src="assets/quotes-thin-svgrepo-com.svg">
+                </div>
+                <div class="test-text w-full h-[70%] text-center">
+                    <p class="h-full p-2 font-bold text-[var(--brown)]">I am so thankful that i was able to buy into Epe, I have never regretted it one bit. So many opportunities with them. <br> <br> <span class="text-[var(--blue)]">-Eugene Joan-</span></p>
+                </div>
+            </div>
+
+            <div class="testimonials w-[26rem] max-sm:w-[20rem]  max-sm:p-2 h-[50vh] flex flex-col justify-center rounded-lg p-6 hover:bg-[#FAF9F6] shadow-lg drop-shadow-lg mt-[3rem] self-end max-sm:self-center mb-5">
+                <div class="test-image w-12 h-auto self-end">
+                    <img src="assets/quotes-thin-svgrepo-com.svg">
+                </div>
+                <div class="test-text w-full h-[70%] text-center">
+                    <p class="h-full p-2 font-bold text-[var(--brown)]">Being a Nigerian in the Diaspora, it could be challenging doing business in your homeland especially when it has to do with Real Estate, but Petrus Properties exceeded my expectations in all areas, I am glad i was able to do business with them, no regrets at all. <br> <br> <span class="text-[var(--blue)]">-John AK-</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-[var(--blue)] w-full h-full mt-[8rem] flex justify-center items-center rounded-tr-xl rounded-tl-xl">
+        <div class="footer-wrapper w-full flex items-center m-[1rem] max-sm:flex-col max-sm:py-2">
+            <div class="company-name text-nowrap text-center w-full max-md:w-[50%]">
+                <span class="max-md:text-xs text-white w-full">Copyright &COPY;2024 Petrus Properties</span>
+            </div>
+            <div class="social-icons w-full flex items-center justify-center max-md:w-[50%]">
+                <a href="https://www.facebook.com/profile.php?id=100088935734091&mibextid=PlNXYD" target= "_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook p-3 bg-white rounded-[50%] text-[1em] opacity-80 max-md:p-2 m-2 hover:opacity-100"></i></a>
+                <a href="https://www.instagram.com/petrusproperties" target= "_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram p-3 bg-white rounded-[50%] text-[1em] opacity-80 max-md:p-2 m-2 hover:opacity-100"></i></a>
+            </div>
+            <div class="contact w-full text-white flex max-md:w-[50%]" id="Contact">
+                <div class="contact-wrapper w-full break-words">
+                    <div class="website flex items-center hover:border-l-2 hover:border-l-[var(--brown)] hover:translate-x-2 transition-all duration-300 ease-in-out">
+                        <i class="fa-solid fa-right-to-bracket max-md:text-xs m-1" style="color: #fff;"></i>
+                        <p class="max-md:text-xs">Petrusproperties.com</p>
+                    </div>
+                    <div class="email">
+                        <div class="email-1 flex items-center hover:border-l-2 hover:border-l-[var(--brown)] hover:translate-x-2 transition-all duration-300 ease-in-out">
+                            <i class="fa-solid fa-envelope max-md:text-xs m-1" style="color: #fff;"></i>
+                            <p class="max-md:text-xs m-1">customercare@petrusproperties.com</p>
+                        </div>
+                    </div>
+                    <div class="phone flex items-center hover:border-l-2 hover:border-l-[var(--brown)] hover:translate-x-2 transition-all duration-300 ease-in-out">
+                        <i class="fa-solid fa-mobile-screen-button max-md:text-xs m-1" style="color: #fff;"></i>
+                        <p class="max-md:text-xs max-md:pl-1">0813 745 9589</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="petrus.js"></script>
+</body>
+</html>

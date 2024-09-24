@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --blue: #072B3F;
+    --brown: #DA9168;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.services {
+    transition: 0.5s;
+}
+
+.services:hover {
+    -webkit-text-stroke: 2px var(--blue);
+    color: transparent;
+}
+
+.services2 {
+    transition: 0.5s;
+}
+
+.services2:hover {
+    -webkit-text-stroke: 2px var(--brown);
+    color: transparent;
+}
+
+@keyframes next1 {
+    from{
+        left: 0%;
+    }
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes next2 {
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+@keyframes prev1 {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes prev2 {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+.slide-container .slides img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slide-container .slides img:not(.active) {
+    top: 0;
+    left: -100%;
+}
+
+span.next, span.prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    transition: 0.5s;
+    border-radius: 12px;
+    user-select: none;
+    z-index: 1;
+}
+
+span.next:hover, span.prev:hover {
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+span.next:hover, span.prev:hover {
+    color: grey;
+}
+
+span.next {
+    right: 5px;
+}
+
+span.prev {
+    left: 5px;
+}
+
+
+
+#animatedText {
+    font-family: "Reddit Mono", monospace;
+    font-weight: 800;
+}
+
+.animatedText {
+    overflow: hidden;
+    text-align: center;
+    border-right: .15em solid var(--blue);
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation: typing 8s steps(43), blink .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {border-color: transparent}
+    50% {border-color: var(--blue);}
+}
+
+::-webkit-scrollbar {
+    display: none;
+ }
